@@ -18,7 +18,7 @@ public class StudentInfo {
 //		s.add(30);
 //		s.add(null);
 //		System.out.println(s);
-		
+
 //		Set s1= new LinkedHashSet();
 //		s1.add(20);
 //		s1.add(10);
@@ -50,8 +50,7 @@ public class StudentInfo {
 //		Set s = new HashSet();
 //		s.addAll(li);
 //		System.out.println(s);
-		
-		
+
 //		Set s = new HashSet<>();
 //		
 //		s.add(105);
@@ -86,27 +85,31 @@ public class StudentInfo {
 //			System.out.println(c);
 //		}
 //		
-	Set s = new LinkedHashSet<>();
-	s.add(10);
-	s.add(20);
-	s.add(30);
-	s.add(40);
-	s.add(50);
-	s.add(10);
+		Set s = new LinkedHashSet<>();
+		s.add(10);
+		s.add(20);
+		s.add(30);
+		s.add(40);
+		s.add(50);
+		s.add(10);
 
-	List li = new ArrayList<>();
-	li.add(10);
-	li.add(30);
-	li.add(60);
-	li.add(40);
+		List li = new ArrayList<>();
+		li.add(10);
+		li.add(30);
+		li.add(60);
+		li.add(40);
 
-	s.removeAll(li);
-	System.out.println(s);	
-		
+		s.removeAll(li);
+		System.out.println(s);
+
 	}
-	
+
 	private void T01() {
-System.out.println("Test01");
+		System.out.println("Test01");
 	}
-	
+
+	private void T02() {
+		System.out.println("Test02");
+	}
+
 }

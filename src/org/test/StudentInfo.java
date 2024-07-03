@@ -102,11 +102,10 @@ public class StudentInfo {
 
 	s.removeAll(li);
 	System.out.println(s);
-	
-	
-		
-		
 		
 	}
 	
+	private void T02() {
+System.out.println("Test02");
+	}
 }

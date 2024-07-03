@@ -101,12 +101,12 @@ public class StudentInfo {
 	li.add(40);
 
 	s.removeAll(li);
-	System.out.println(s);
+	System.out.println(s);	
+		
+	}
 	
-	
-		
-		
-		
+	private void T01() {
+System.out.println("Test01");
 	}
 	
 }
